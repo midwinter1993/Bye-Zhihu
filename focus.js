@@ -1,5 +1,14 @@
 function block() {
-  document.body.innerHTML='<div style="font-size: 40px; margin: 25% 0; text-align: center; "> GOOD GOOD STUDY </div>';
+  document.body.innerHTML = `
+  <div
+    style="font-size: 40px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);">
+    GOOD GOOD STUDY
+  </div>`;
 }
 
 window.onload = function() {
